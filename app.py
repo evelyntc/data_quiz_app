@@ -14,6 +14,9 @@ st.set_page_config(
 # -------------------------------------------------
 st.markdown("""
     <style>
+        /* Import better fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        
         /* Full page background gradient */
         [data-testid="stAppViewContainer"] {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
@@ -33,6 +36,7 @@ st.markdown("""
             border-radius: 16px !important;
             box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3) !important;
             padding: 50px 40px !important;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
         }
         
         /* Remove Streamlit header/footer */
@@ -40,6 +44,17 @@ st.markdown("""
         footer { visibility: hidden; }
         header { visibility: hidden; }
         [data-testid="stDecoration"] { display: none; }
+        
+        /* Apply font to all text */
+        * {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+        }
+        
+        /* Override button fonts */
+        button {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+            font-weight: 600 !important;
+        }
         
         /* Header styling */
         .header-title {
