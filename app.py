@@ -625,7 +625,8 @@ else:
             "Tableau Public - Gallery & Learning": "https://public.tableau.com/",
             "Google Analytics Academy (free certification)": "https://analytics.google.com/analytics/academy/",
             "DataCamp - Data Analysis with Python": "https://www.datacamp.com/courses/data-analysis-in-python",
-            "Coursera - Business Analytics Specialization": "https://www.coursera.org/specializations/business-analytics"
+            "Coursera - Business Analytics Specialization": "https://www.coursera.org/specializations/business-analytics",
+            "Data Analyst Job Board- For US Jobs": "https://www.dataanalyst.com/"
         },
         "scientist": {
             "Andrew Ng - Machine Learning Specialization (Coursera)": "https://www.coursera.org/specializations/machine-learning-introduction",
