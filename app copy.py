@@ -8,9 +8,8 @@ st.set_page_config(
     layout="centered",
     initial_sidebar_state="collapsed"
 )
-
 # -------------------------------------------------
-# BEAUTIFUL CSS STYLING
+# CSS STYLING
 # -------------------------------------------------
 st.markdown("""
     <style>
@@ -19,14 +18,12 @@ st.markdown("""
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
         }
         
-        /* Main content area */
         [data-testid="stMainBlockContainer"] {
             padding: 40px 20px !important;
-            background: transparent !important;
         }
         
-        /* White card container - use block-container class */
-        .block-container {
+        /* Main content container - white card */
+        .main > div > div {
             max-width: 750px !important;
             margin: 0 auto !important;
             background: white !important;
@@ -35,7 +32,7 @@ st.markdown("""
             padding: 50px 40px !important;
         }
         
-        /* Remove Streamlit header/footer */
+        /* Remove Streamlit elements */
         #MainMenu { visibility: hidden; }
         footer { visibility: hidden; }
         header { visibility: hidden; }
@@ -615,7 +612,8 @@ else:
             "Tableau Public - Gallery & Learning": "https://public.tableau.com/",
             "Google Analytics Academy (free certification)": "https://analytics.google.com/analytics/academy/",
             "DataCamp - Data Analysis with Python": "https://www.datacamp.com/courses/data-analysis-in-python",
-            "Coursera - Business Analytics Specialization": "https://www.coursera.org/specializations/business-analytics"
+            "Coursera - Business Analytics Specialization": "https://www.coursera.org/specializations/business-analytics",
+            "Data Analyst Job Board": "http://dataanalyst.com/"
         },
         "scientist": {
             "Andrew Ng - Machine Learning Specialization (Coursera)": "https://www.coursera.org/specializations/machine-learning-introduction",
