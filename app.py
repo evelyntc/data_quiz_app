@@ -33,6 +33,17 @@ st.markdown("""
             border-radius: 16px !important;
             box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3) !important;
             padding: 50px 40px !important;
+            color: #333 !important;
+        }
+        
+        /* Force text color to dark */
+        .block-container p, 
+        .block-container h1, 
+        .block-container h2, 
+        .block-container h3,
+        .block-container span,
+        .block-container div {
+            color: #333 !important;
         }
         
         /* Remove Streamlit header/footer */
@@ -607,8 +618,7 @@ else:
             "Apache Spark & PySpark Documentation": "https://spark.apache.org/docs/latest/",
             "dbt Fundamentals Course (free)": "https://courses.getdbt.com/courses/fundamentals",
             "DataCamp - Data Engineering Track": "https://www.datacamp.com/courses/data-engineering",
-            "Cloud certifications (AWS Solutions Architect, GCP Associate)": "https://aws.amazon.com/certification/",
-            "GitHub - awesome-data-engineering": "https://github.com/aastiksingh/awesome-data-engineering"
+            "Cloud certifications (AWS Solutions Architect, GCP Associate)": "https://aws.amazon.com/certification/"
         },
         "analyst": {
             "Mode Analytics - SQL Tutorial (free)": "https://mode.com/sql-tutorial/",
